@@ -1,16 +1,194 @@
 {
-  "posts":[
+  "tasks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "title": "Task 1",
+      "description": "Description task 1",
+      "authorId": 11542402,
+      "slug": "task-1",
+      "state": "PUBLISHED",
+      "id": 1
+    },
+    {
+      "title": "Task 2",
+      "description": "Description task 2",
+      "authorId": 11542402,
+      "slug": "task-2",
+      "state": "PUBLISHED",
+      "id": 2
+    },
+    {
+      "title": "Task 3",
+      "description": "Description task 3",
+      "authorId": 11542402,
+      "slug": "task-3",
+      "state": "PUBLISHED",
+      "id": 3
     }
   ],
-  "comments" : [
+  "categories": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "title": "Category task 1",
+      "description": "Description category task 1",
+      "items": [
+        {
+          "minScore": "0",
+          "maxScore": "20",
+          "description": "Description item 1",
+          "id": "af9947d2-c51a-44cb-9a8a-cfbaee688253"
+        },
+        {
+          "minScore": "0",
+          "maxScore": "30",
+          "description": "Description item 2",
+          "id": "68ee7afa-aa0c-4e62-8bf6-1c3e2d57213c"
+        }
+      ],
+      "slug": "category-task-1",
+      "taskId": "1",
+      "id": 1
+    },
+    {
+      "title": "Category task 1",
+      "description": "Category task 1",
+      "items": [
+        {
+          "minScore": "0",
+          "maxScore": "40",
+          "description": "Description item 1",
+          "id": "3d2c1950-ebe7-4365-a619-53f993bdde95"
+        }
+      ],
+      "slug": "category-task-1",
+      "taskId": "1",
+      "id": 2
+    },
+    {
+      "title": "Category task 2",
+      "description": "Description task 2",
+      "items": [
+        {
+          "minScore": "0",
+          "maxScore": "100",
+          "description": "Description item 1",
+          "id": "4f09ee93-a152-45f3-8578-7b9a842754cb"
+        },
+        {
+          "minScore": "0",
+          "maxScore": "40",
+          "description": "Description item 2",
+          "id": "b74d550d-26e3-410f-846f-e5fb46e36e68"
+        },
+        {
+          "minScore": "0",
+          "maxScore": "60",
+          "description": "Description item 3",
+          "id": "2684b0a7-f2b9-4f4b-91c5-44f2d2d1448b"
+        }
+      ],
+      "slug": "category-task-2",
+      "taskId": "2",
+      "id": 3
+    }
+  ],
+  "taskScore": [
+    {
+      "task_id": 1,
+      "items": {
+        "basic_p1": {
+          "score": 20,
+          "comment": "Well done!"
+        },
+        "extra_p1": {
+          "score": 15,
+          "comment": "Some things are done, some are not"
+        },
+        "fines_p1": {
+          "score": 0,
+          "comment": "No ticket today"
+        }
+      }
+    },
+    {
+      "task_id": 2,
+      "items": {
+        "basic_p1": {
+          "score": 20,
+          "comment": "Well done!"
+        },
+        "extra_p1": {
+          "score": 15,
+          "comment": "Some things are done, some are not"
+        },
+        "fines_p1": {
+          "score": 0,
+          "comment": "No ticket today"
+        }
+      }
+    }
+  ],
+  "crossCheckSession": [],
+  "reviewRequest": [
+    {
+      "id": "rev-req-1",
+      "crossCheckSessionId": "rss2020Q3react-xcheck",
+      "author": "cardamo",
+      "task": "simple-task-v1",
+      "state": "PUBLISHED",
+      "selfGrade": {}
+    },
+    {
+      "id": "rev-req-2",
+      "crossCheckSessionId": "rss2020Q3react-schedule",
+      "author": "multeng",
+      "task": "simple-task-v2",
+      "state": "DRAFT",
+      "selfGrade": {}
+    }
+  ],
+  "review": [
+    {
+      "id": "1",
+      "requestId": "rev-req-1",
+      "author": "ButterBrot777",
+      "state": "DISPUTED",
+      "grade": {}
+    },
+    {
+      "id": "2",
+      "requestId": "rev-req-2",
+      "author": "torvalds",
+      "state": "ACCEPTED",
+      "grade": {}
+    },
+    {
+      "id": "3",
+      "requestId": "rev-req-3",
+      "author": "cardamo",
+      "state": "REJECTED",
+      "grade": {}
+    }
+  ],
+  "dispute": [
+    {
+      "reviewId": 1,
+      "state": "ONGOING",
+      "idem": "extra_p1",
+      "comment": "Check out the 'All things' page to see all things that were implemented",
+      "suggestedScore": 30
+    },
+    {
+      "reviewId": 2,
+      "state": "ACCEPTED",
+      "idem": "extra_p1",
+      "comment": "Check out the 'All things' page to see all things that were implemented",
+      "suggestedScore": 30
+    },
+    {
+      "reviewId": 3,
+      "state": "ACCEPTED",
+      "idem": "basic_p1",
+      "comment": "Check out the 'All things' page to see all things that were implemented",
+      "suggestedScore": 20
     }
   ]
 }

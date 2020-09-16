@@ -2,30 +2,30 @@
   "users": [],
   "tasks": [
     {
-      "title": "Task 1",
-      "description": "Description task 1",
+      "title": "Виртуальная клавиатура",
+      "description": "Вам нужно создать виртуальную клавиатуру",
       "authorId": 11542402,
-      "slug": "task-1",
+      "slug": "virtual-keyboard",
       "state": "PUBLISHED",
       "id": 1,
       "created_at": "2020-09-16 20:00:00",
       "update_at": null
     },
     {
-      "title": "Task 2",
-      "description": "Description task 2",
+      "title": "English for kids",
+      "description": "English for kids - приложение для изучения английских слов детьми.",
       "authorId": 11542402,
-      "slug": "task-2",
+      "slug": "english-for-kids",
       "state": "PUBLISHED",
       "id": 2,
       "created_at": "2020-09-15 19:00:00",
       "update_at": null
     },
     {
-      "title": "Task 3",
-      "description": "Description task 3",
+      "title": "MovieSearch",
+      "description": "MovieSearch - одностраничное приложение, отображающее информацию о фильмах по запросу пользователя.Для получения информации используется OMDb RESTful API.",
       "authorId": 11542402,
-      "slug": "task-3",
+      "slug": "movie-search",
       "state": "PUBLISHED",
       "id": 3,
       "created_at": "2020-09-14 15:00:00",
@@ -34,67 +34,94 @@
   ],
   "categories": [
     {
-      "title": "Category task 1",
-      "description": "Description category task 1",
+      "title": "Минимальный набор",
+      "description": "",
       "items": [
         {
-          "minScore": "0",
-          "maxScore": "20",
-          "description": "Description item 1",
+          "score": "20",
+          "description": "Реализована генерация DOM-элементов и body в index.html пустой изначально (может находится только тег script)",
           "id": "af9947d2-c51a-44cb-9a8a-cfbaee688253"
         },
         {
-          "minScore": "0",
-          "maxScore": "30",
-          "description": "Description item 2",
+          "score": "10",
+          "description": "нажатие на кнопку на физической клавиатуре подсвечивает кнопку на виртуальной (проверять следует нажатие цифр, букв, знаков препинания, backspace, del (если она присутствует), enter, shift, alt, ctrl, tab, caps lock, space, стрелки вниз-вверх-влево-вправо)",
           "id": "68ee7afa-aa0c-4e62-8bf6-1c3e2d57213c"
         }
       ],
-      "slug": "category-task-1",
+      "slug": "minimalьnyj-nabor",
       "taskId": "1",
       "id": 1
     },
     {
-      "title": "Category task 1",
-      "description": "Category task 1",
+      "title": "Стандартный набор",
+      "description": "",
       "items": [
         {
-          "minScore": "0",
-          "maxScore": "40",
-          "description": "Description item 1",
+          "score": "15",
+          "description": "есть переключение между русским и английским языком (сочетание клавиш для переключения языка должно быть указано на странице с клавиатурой), а также сохранение выбранного языка",
           "id": "3d2c1950-ebe7-4365-a619-53f993bdde95"
+        },
+        {
+          "score": "15",
+          "description": "клики мышкой по кнопкам на виртуальной клавиатуре или нажатие на кнопки физической клавиатуры, выводят символы в инпут (textarea)",
+          "id": "445fc076-f854-11ea-adc1-0242ac120002"
         }
       ],
-      "slug": "category-task-1",
+      "slug": "standartnyj-nabor",
       "taskId": "1",
       "id": 2
     },
     {
-      "title": "Category task 2",
-      "description": "Description task 2",
+      "title": "Дополнительный набор",
+      "description": "",
       "items": [
         {
-          "minScore": "0",
-          "maxScore": "100",
-          "description": "Description item 1",
+          "score": "15",
+          "description": "Реализована анимация нажатия на кнопку",
           "id": "4f09ee93-a152-45f3-8578-7b9a842754cb"
-        },
-        {
-          "minScore": "0",
-          "maxScore": "40",
-          "description": "Description item 2",
-          "id": "b74d550d-26e3-410f-846f-e5fb46e36e68"
-        },
-        {
-          "minScore": "0",
-          "maxScore": "60",
-          "description": "Description item 3",
-          "id": "2684b0a7-f2b9-4f4b-91c5-44f2d2d1448b"
         }
       ],
-      "slug": "category-task-2",
-      "taskId": "2",
+      "slug": "dopolnitelьnyj-nabor",
+      "taskId": "1",
       "id": 3
+    },
+    {
+      "title": "Технические требования",
+      "description": "",
+      "items": [
+        {
+          "score": "15",
+          "description": "Использование в коде фишек стандарта ES6 и выше (classes, деструктуризация и т.д.)",
+          "id": "d19fdcc8-f854-11ea-adc1-0242ac120002"
+        },
+        {
+          "score": "10",
+          "description": "Использование eslint",
+          "id": "d8e295d4-f854-11ea-adc1-0242ac120002"
+        },
+        {
+          "score": "10",
+          "description": "Требования к репозиторию, коммитам и PR выполнены",
+          "id": "decb11f6-f854-11ea-adc1-0242ac120002"
+        }
+      ],
+      "slug": "tehnicheskie-trebovaniya",
+      "taskId": "1",
+      "id": 4
+    },
+    {
+      "title": "Штрафы",
+      "description": "",
+      "items": [
+        {
+          "score": "15",
+          "description": "Ошибки в консоли, связанные с исполняемым кодом (ошибки типа favicon.ico: Failed to load resource: the server responded with a status of 404 не учитываются) или предупреждения eslint-config-airbnb-base",
+          "id": "0f57c62a-f855-11ea-adc1-0242ac120002"
+        }
+      ],
+      "slug": "shtrafy",
+      "taskId": "1",
+      "id": 5
     }
   ],
   "taskScore": [

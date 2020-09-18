@@ -179,24 +179,75 @@
   "review": [
     {
       "id": "1",
+      "student": "hallovarvara",
+      "task": "X-check",
       "requestId": "rev-req-1",
       "author": "ButterBrot777",
       "state": "DISPUTED",
-      "grade": {}
+      "grade": {
+        "score": 25,
+        "maxScore": 50,
+        "basic_p1": {
+          "score": 20,
+          "comment": "Well done!"
+        },
+        "extra_p1": {
+          "score": 5,
+          "comment": "It is awfull"
+        },
+        "fines_p1": {
+          "score": 0,
+          "comment": "No ticket today"
+        }
+      }
     },
     {
       "id": "2",
+      "student": "wayjewish",
+      "task": "Songbird",
       "requestId": "rev-req-2",
       "author": "torvalds",
-      "state": "ACCEPTED",
-      "grade": {}
+      "state": "REJECTED",
+      "grade": {
+        "score": 0,
+        "maxScore": 100,
+        "basic_p1": {
+          "score": 20,
+          "comment": "Not bad!"
+        },
+        "extra_p1": {
+          "score": 0,
+          "comment": "Did you do something?"
+        },
+        "fines_p1": {
+          "score": 20,
+          "comment": "A lot of errors!"
+        }
+      }
     },
     {
       "id": "3",
+      "student": "cup0ra",
+      "task": "Songbird",
       "requestId": "rev-req-3",
       "author": "cardamo",
-      "state": "REJECTED",
-      "grade": {}
+      "state": "ACCEPTED",
+      "grade": {
+        "score": 100,
+        "maxScore": 100,
+        "basic_p1": {
+          "score": 40,
+          "comment": "Well done!"
+        },
+        "extra_p1": {
+          "score": 60,
+          "comment": "amazing"
+        },
+        "fines_p1": {
+          "score": 0,
+          "comment": "No ticket today"
+        }
+      }
     }
   ],
   "dispute": [

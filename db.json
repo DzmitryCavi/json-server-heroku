@@ -160,21 +160,115 @@
   "crossCheckSession": [],
   "reviewRequest": [
     {
-      "id": "rev-req-1",
-      "crossCheckSessionId": "rss2020Q3react-xcheck",
-      "author": "cardamo",
-      "task": "simple-task-v1",
-      "state": "PUBLISHED",
-      "selfGrade": {}
+    "task": 1,
+    "url": "https://online.anidub.com/anime/anime_ongoing/11252-v-poiskah-bozhestvennogo-recepta-tv-5-shokugeki-no-souma-shin-no-sara-01-iz-12.html",
+    "selfGrade": {
+      "Минимальный набор": [
+        {
+          "number": 10,
+          "discription": "asdasdasd"
+        },
+        {
+          "number": 10,
+          "discription": null
+        }
+      ],
+      "Стандартный набор": [
+        {
+          "number": 15,
+          "discription": null
+        },
+        {
+          "number": 7.5,
+          "discription": "asfsafasfasfasfasfasf"
+        }
+      ],
+      "Дополнительный набор": [
+        {
+          "number": 0,
+          "discription": null
+        }
+      ],
+      "Технические требования": [
+        {
+          "number": 7.5,
+          "discription": "asfasfasfasfsafsaf"
+        },
+        {
+          "number": 5,
+          "discription": "asdasd"
+        },
+        {
+          "number": 8,
+          "discription": "asfasfasfasf"
+        }
+      ],
+      "Штрафы": [
+        {
+          "number": -15,
+          "discription": null
+        }
+      ]
     },
+    "state": "PUBLISHED",
+    "author": "VeronikaFilipenko",
+    "id": "request-3b0647ab-61fa-41b2-b668-b55dc17de0ea"
+  },
     {
-      "id": "rev-req-2",
-      "crossCheckSessionId": "rss2020Q3react-schedule",
-      "author": "multeng",
-      "task": "simple-task-v2",
-      "state": "DRAFT",
-      "selfGrade": {}
-    }
+    "task": 1,
+    "url": "https://online.anidub.com/anime/anime_ongoing/11252-v-poiskah-bozhestvennogo-recepta-tv-5-shokugeki-no-souma-shin-no-sara-01-iz-12.html",
+    "selfGrade": {
+      "Минимальный набор": [
+        {
+          "number": 10,
+          "discription": "asdasdasd"
+        },
+        {
+          "number": 10,
+          "discription": null
+        }
+      ],
+      "Стандартный набор": [
+        {
+          "number": 15,
+          "discription": null
+        },
+        {
+          "number": 7.5,
+          "discription": "asfsafasfasfasfasfasf"
+        }
+      ],
+      "Дополнительный набор": [
+        {
+          "number": 0,
+          "discription": null
+        }
+      ],
+      "Технические требования": [
+        {
+          "number": 7.5,
+          "discription": "asfasfasfasfsafsaf"
+        },
+        {
+          "number": 5,
+          "discription": "asdasd"
+        },
+        {
+          "number": 8,
+          "discription": "asfasfasfasf"
+        }
+      ],
+      "Штрафы": [
+        {
+          "number": -15,
+          "discription": null
+        }
+      ]
+    },
+    "state": "PUBLISHED",
+    "author": "DzmitryCavi",
+    "id": "request-3b0647ab-61fa-41b2-b668-b55dc17de0ea"
+  }
   ],
   "reviews": [
     {

@@ -159,116 +159,123 @@
   ],
   "crossCheckSession": [],
   "reviewRequest": [
-    {
-    "task": 1,
-    "url": "https://online.anidub.com/anime/anime_ongoing/11252-v-poiskah-bozhestvennogo-recepta-tv-5-shokugeki-no-souma-shin-no-sara-01-iz-12.html",
-    "selfGrade": {
-      "Минимальный набор": [
-        {
-          "number": 10,
-          "discription": "asdasdasd"
-        },
-        {
-          "number": 10,
-          "discription": null
-        }
-      ],
-      "Стандартный набор": [
-        {
-          "number": 15,
-          "discription": null
-        },
-        {
-          "number": 7.5,
-          "discription": "asfsafasfasfasfasfasf"
-        }
-      ],
-      "Дополнительный набор": [
-        {
-          "number": 0,
-          "discription": null
-        }
-      ],
-      "Технические требования": [
-        {
-          "number": 7.5,
-          "discription": "asfasfasfasfsafsaf"
-        },
-        {
-          "number": 5,
-          "discription": "asdasd"
-        },
-        {
-          "number": 8,
-          "discription": "asfasfasfasf"
-        }
-      ],
-      "Штрафы": [
-        {
-          "number": -15,
-          "discription": null
-        }
-      ]
-    },
-    "state": "PUBLISHED",
-    "author": "VeronikaFilipenko",
-    "id": "request-3b0647ab-61fa-41b2-b668-b55dc17de0ea"
+   {
+  "name": "Виртуальная клавиатура",
+  "task": 1,
+  "url": "https://github.com/DzmitryCavi/x-check-app/tree/dev",
+  "selfGrade": {
+    "Минимальный набор": [
+      {
+        "number": 10,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      }
+    ],
+    "Стандартный набор": [
+      {
+        "number": 7.5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 15,
+        "discription": "Well done!"
+      }
+    ],
+    "Дополнительный набор": [
+      {
+        "number": 7.5,
+        "discription": "Some things are done, some are not"
+      }
+    ],
+    "Технические требования": [
+      {
+        "number": 15,
+        "discription": "Well done!"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      }
+    ],
+    "Штрафы": [
+      {
+        "number": -7.5,
+        "discription": "Some things are done, some are not"
+      }
+    ]
   },
-    {
-    "task": 1,
-    "url": "https://online.anidub.com/anime/anime_ongoing/11252-v-poiskah-bozhestvennogo-recepta-tv-5-shokugeki-no-souma-shin-no-sara-01-iz-12.html",
-    "selfGrade": {
-      "Минимальный набор": [
-        {
-          "number": 10,
-          "discription": "asdasdasd"
-        },
-        {
-          "number": 10,
-          "discription": null
-        }
-      ],
-      "Стандартный набор": [
-        {
-          "number": 15,
-          "discription": null
-        },
-        {
-          "number": 7.5,
-          "discription": "asfsafasfasfasfasfasf"
-        }
-      ],
-      "Дополнительный набор": [
-        {
-          "number": 0,
-          "discription": null
-        }
-      ],
-      "Технические требования": [
-        {
-          "number": 7.5,
-          "discription": "asfasfasfasfsafsaf"
-        },
-        {
-          "number": 5,
-          "discription": "asdasd"
-        },
-        {
-          "number": 8,
-          "discription": "asfasfasfasf"
-        }
-      ],
-      "Штрафы": [
-        {
-          "number": -15,
-          "discription": null
-        }
-      ]
-    },
-    "state": "PUBLISHED",
-    "author": "DzmitryCavi",
-    "id": "request-3b0647ab-61fa-41b2-b668-b55dc17de0ea"
-  }
+  "state": "SUBMITTED",
+  "author": "DzmitryCavi",
+  "id": "request-0a7499d5-6190-4f34-b77b-97541855b9b8",
+  "created_at": "2020-09-24 06:20:03",
+  "updated_at": null,
+  "closed_at": null
+},{
+  "name": "Movie Search",
+  "task": 1,
+  "url": "https://github.com/DzmitryCavi/x-check-app/tree/dev",
+  "selfGrade": {
+    "Минимальный набор": [
+      {
+        "number": 10,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      }
+    ],
+    "Стандартный набор": [
+      {
+        "number": 7.5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 15,
+        "discription": "Well done!"
+      }
+    ],
+    "Дополнительный набор": [
+      {
+        "number": 7.5,
+        "discription": "Some things are done, some are not"
+      }
+    ],
+    "Технические требования": [
+      {
+        "number": 15,
+        "discription": "Well done!"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      }
+    ],
+    "Штрафы": [
+      {
+        "number": -7.5,
+        "discription": "Some things are done, some are not"
+      }
+    ]
+  },
+  "state": "GRADED",
+  "author": "DzmitryCavi",
+  "id": "request-0a7499d5-6190-4f34-b77b-97541855a99",
+  "created_at": "2020-09-24 06:20:03",
+  "updated_at": "2020-09-24 07:20:03",
+  "closed_at": "2020-09-24 08:20:03"
+}
   ],
   "reviews": [
     {

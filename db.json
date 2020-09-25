@@ -206,11 +206,12 @@
     ],
     "Штрафы": [
       {
-        "number": -7.5,
+        "number": -15,
         "discription": "Some things are done, some are not"
       }
     ]
   },
+  "score": 65,
   "state": "SUBMITTED",
   "author": "DzmitryCavi",
   "id": "request-0a7499d5-6190-4f34-b77b-97541855b9b8",
@@ -264,11 +265,12 @@
     ],
     "Штрафы": [
       {
-        "number": -7.5,
-        "discription": "Some things are done, some are not"
+        "number": 0,
+        "discription": "Well"
       }
     ]
   },
+  "score":  80,
   "state": "GRADED",
   "author": "DzmitryCavi",
   "id": "request-0a7499d5-6190-4f34-b77b-97541855a99",

@@ -634,7 +634,190 @@
     }
   ],
   "crossCheckSession": [],
-  "reviewRequest": [
+  "reviewRequest": [{
+  "name": "X Check App / RS Assessment Too",
+  "task": 5,
+  "url": "https://github.com/DzmitryCavi/x-check-app",
+  "selfGrade": {
+    "Базовая функциональность": [
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 20,
+        "discription": "Well done!"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 10,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      }
+    ],
+    "Дополнительные возможности при создании задания": [
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 20,
+        "discription": "Well done!"
+      }
+    ],
+    "Дополнительные возможности при проверке задания": [
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      }
+    ],
+    "Дополнительные возможности после проверки задания": [
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      }
+    ],
+    "Кросс-чек": [
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      }
+    ],
+    "Дополнительная функциональность": [
+      {
+        "number": 30,
+        "discription": "Well done!"
+      },
+      {
+        "number": 20,
+        "discription": "Well done!"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 10,
+        "discription": "Well done!"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      }
+    ],
+    "Качество кода": [
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 0,
+        "discription": "No ticket today"
+      },
+      {
+        "number": 20,
+        "discription": "Well done!"
+      },
+      {
+        "number": 5,
+        "discription": "Some things are done, some are not"
+      }
+    ]
+  },
+  "score": 270,
+  "state": "DRAFT",
+  "author": "DzmitryCavi",
+  "id": "request-d3db8b93-8f82-4cdb-8a94-42469fd814f9",
+  "created_at": "2020-09-25 18:06:25",
+  "updated_at": "2020-09-25 18:43:02",
+  "closed_at": null
+},
    {
   "name": "Виртуальная клавиатура",
   "task": 1,

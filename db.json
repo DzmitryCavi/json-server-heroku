@@ -449,7 +449,7 @@
   "reviewRequest": [
     {
       "name": "X Check App / RS Assessment Too (hardz)",
-      "task": 4,
+      "taskId": 4,
       "url": "https://mail.yandex.by/?addMultiUserFromDropdownButton=true#inbox",
       "selfGrade": {
         "Базовая функциональность": [
@@ -672,62 +672,62 @@
     },
     {
       "name": "Виртуальная клавиатура",
-      "task": 1,
+      "taskId": 1,
       "url": "https://mail.yandex.by/?addMultiUserFromDropdownButton=true#inbox",
       "selfGrade": {
         "Минимальный набор": [
           {
             "number": 10,
             "discription": "Some things are done, some are not",
-            "criteria": "4dbaadb6-1f54-40e7-bfbd-f6dc67419b4f"
+            "criteriaId": "4dbaadb6-1f54-40e7-bfbd-f6dc67419b4f"
           },
           {
             "number": 5,
             "discription": "Some things are done, some are not",
-            "criteria": "38c1559c-c40c-4a8b-8349-20296017c2a8"
+            "criteriaId": "38c1559c-c40c-4a8b-8349-20296017c2a8"
           }
         ],
         "Стандартный набор": [
           {
             "number": 15,
             "discription": "Well done!",
-            "criteria": "cd5499ca-f743-441f-a40b-ce1c41629b31"
+            "criteriaId": "cd5499ca-f743-441f-a40b-ce1c41629b31"
           },
           {
             "number": 15,
             "discription": "Well done!",
-            "criteria": "23bce45b-3535-47ae-9bea-776b2eab76aa"
+            "criteriaId": "23bce45b-3535-47ae-9bea-776b2eab76aa"
           }
         ],
         "Дополнительный набор": [
           {
             "number": 15,
             "discription": "Well done!",
-            "criteria": "7cb425b7-70fe-436b-9385-34fa5cef2a34"
+            "criteriaId": "7cb425b7-70fe-436b-9385-34fa5cef2a34"
           }
         ],
         "Технические требования": [
           {
             "number": 7.5,
             "discription": "Some things are done, some are not",
-            "criteria": "8cb39341-72f4-49f5-9560-760bfa02ab9a"
+            "criteriaId": "8cb39341-72f4-49f5-9560-760bfa02ab9a"
           },
           {
             "number": 10,
             "discription": "Well done!",
-            "criteria": "fed29c0a-4367-40d4-b21c-7e636a9082a0"
+            "criteriaId": "fed29c0a-4367-40d4-b21c-7e636a9082a0"
           },
           {
             "number": 10,
             "discription": "Well done!",
-            "criteria": "3a5e02dd-04a0-422d-a45a-ba7a60f18f18"
+            "criteriaId": "3a5e02dd-04a0-422d-a45a-ba7a60f18f18"
           }
         ],
         "Штрафы": [
           {
             "number": -15,
             "discription": "Well done!",
-            "criteria": "72ec6975-d208-4678-9764-9bcc1651a86b"
+            "criteriaId": "72ec6975-d208-4678-9764-9bcc1651a86b"
           }
         ]
       },
@@ -743,61 +743,61 @@
   "reviews": [
     {
       "name": "Виртуальная клавиатура",
-      "task": 1,
+      "taskId": 1,
       "requestId": "request-0396240e-8e7c-45c9-beec-25c52e23c23d",
       "student": "DzmitryCavi",
       "grade": {
         "Минимальный набор": [
           {
-            "criteria": "4dbaadb6-1f54-40e7-bfbd-f6dc67419b4f",
+            "criteriaId": "4dbaadb6-1f54-40e7-bfbd-f6dc67419b4f",
             "number": 10,
             "discription": "Some things are done, some are not"
           },
           {
-            "criteria": "38c1559c-c40c-4a8b-8349-20296017c2a8",
+            "criteriaId": "38c1559c-c40c-4a8b-8349-20296017c2a8",
             "number": 0,
             "discription": "No ticket today"
           }
         ],
         "Стандартный набор": [
           {
-            "criteria": "cd5499ca-f743-441f-a40b-ce1c41629b31",
+            "criteriaId": "cd5499ca-f743-441f-a40b-ce1c41629b31",
             "number": 15,
             "discription": "Well done!"
           },
           {
-            "criteria": "23bce45b-3535-47ae-9bea-776b2eab76aa",
+            "criteriaId": "23bce45b-3535-47ae-9bea-776b2eab76aa",
             "number": 15,
             "discription": "Well done!"
           }
         ],
         "Дополнительный набор": [
           {
-            "criteria": "7cb425b7-70fe-436b-9385-34fa5cef2a34",
+            "criteriaId": "7cb425b7-70fe-436b-9385-34fa5cef2a34",
             "number": 15,
             "discription": "Well done!"
           }
         ],
         "Технические требования": [
           {
-            "criteria": "8cb39341-72f4-49f5-9560-760bfa02ab9a",
+            "criteriaId": "8cb39341-72f4-49f5-9560-760bfa02ab9a",
             "number": 0,
             "discription": "No ticket today"
           },
           {
-            "criteria": "fed29c0a-4367-40d4-b21c-7e636a9082a0",
+            "criteriaId": "fed29c0a-4367-40d4-b21c-7e636a9082a0",
             "number": 10,
             "discription": "Well done!"
           },
           {
-            "criteria": "3a5e02dd-04a0-422d-a45a-ba7a60f18f18",
+            "criteriaId": "3a5e02dd-04a0-422d-a45a-ba7a60f18f18",
             "number": 5,
             "discription": "Some things are done, some are not"
           }
         ],
         "Штрафы": [
           {
-            "criteria": "72ec6975-d208-4678-9764-9bcc1651a86b",
+            "criteriaId": "72ec6975-d208-4678-9764-9bcc1651a86b",
             "number": -15,
             "discription": "Well done!"
           }
@@ -812,6 +812,5 @@
       "closed_at": null
     }
   ],
-  "dispute": [
-  ]
+  "dispute": []
 }

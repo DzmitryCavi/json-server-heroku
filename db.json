@@ -813,26 +813,5 @@
     }
   ],
   "dispute": [
-    {
-      "reviewId": 1,
-      "state": "ONGOING",
-      "idem": "extra_p1",
-      "comment": "Check out the 'All things' page to see all things that were implemented",
-      "suggestedScore": 30
-    },
-    {
-      "reviewId": 2,
-      "state": "ACCEPTED",
-      "idem": "extra_p1",
-      "comment": "Check out the 'All things' page to see all things that were implemented",
-      "suggestedScore": 30
-    },
-    {
-      "reviewId": 3,
-      "state": "ACCEPTED",
-      "idem": "basic_p1",
-      "comment": "Check out the 'All things' page to see all things that were implemented",
-      "suggestedScore": 20
-    }
   ]
 }

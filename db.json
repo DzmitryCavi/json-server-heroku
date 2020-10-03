@@ -443,6 +443,52 @@
           "updated_at": "2020-09-27 19:32:33"
         }
       ]
+    },
+    {
+      "title": "Task 1",
+      "description": "",
+      "authorId": 37982476,
+      "slug": "task-1",
+      "state": "PUBLISHED",
+      "categories": [
+        {
+          "title": "category 1",
+          "criteria": [
+            {
+              "availability": [],
+              "text": "<p>criteria with plus</p>",
+              "score": "30",
+              "id": "1afc5739-a6ae-4c44-b8c1-18f5ee99a53f"
+            }
+          ],
+          "id": "6da2e506-f930-45ae-8894-3e51bb688cd1",
+          "slug": "category-1",
+          "maxScore": 30,
+          "created_at": "2020-10-03 12:31:26",
+          "updated_at": null
+        },
+        {
+          "title": "Category 2",
+          "criteria": [
+            {
+              "availability": [],
+              "text": "<p>Criteria with minus</p>",
+              "score": "-10",
+              "id": "7dfcc042-4498-4503-97f8-7cbc76e61244"
+            }
+          ],
+          "id": "af0f861b-6d42-49ad-91e5-51a2443b414b",
+          "slug": "category-2",
+          "maxScore": -10,
+          "created_at": "2020-10-03 12:31:50",
+          "updated_at": null
+        }
+      ],
+      "startDate": null,
+      "endDate": "2020-10-30 12:31:56",
+      "created_at": "2020-10-03 12:31:02",
+      "updated_at": null,
+      "id": 5
     }
   ],
   "crossCheckSession": [],
@@ -663,7 +709,7 @@
         ]
       },
       "score": 445,
-      "feedback": [],
+      "feedback": "",
       "state": "SUBMITTED",
       "author": "DzmitryCavi",
       "id": "request-51cf673a-9d1a-4685-b8bd-bb64eaefa4b2",
@@ -739,7 +785,36 @@
       "created_at": "2020-09-27 13:24:39",
       "updated_at": null,
       "closed_at": "2020-09-27 13:25:18",
-      "feedback": []
+      "feedback": ""
+    },
+    {
+      "name": "Task 1",
+      "taskId": 5,
+      "url": "https://app.slack.com/client/T4R0TFEMQ/C017AGNKTV3?cdn_fallback=2",
+      "selfGrade": {
+        "category 1": [
+          {
+            "number": 30,
+            "discription": "Well done!",
+            "criteriaId": "1afc5739-a6ae-4c44-b8c1-18f5ee99a53f"
+          }
+        ],
+        "Category 2": [
+          {
+            "number": -10,
+            "discription": "Well done!",
+            "criteriaId": "7dfcc042-4498-4503-97f8-7cbc76e61244"
+          }
+        ]
+      },
+      "score": 20,
+      "feedback": "Good task ! thx !",
+      "state": "GRADED",
+      "author": "VeronikaFilipenko",
+      "id": "request-344228dd-8acb-4b6f-ba6d-149c1ed88c93",
+      "created_at": "2020-10-03 12:32:29",
+      "updated_at": null,
+      "closed_at": "2020-10-03 12:33:06"
     }
   ],
   "reviews": [
@@ -812,7 +887,104 @@
       "created_at": "2020-09-27 13:25:18",
       "updated_at": null,
       "closed_at": null
+    },
+    {
+      "name": "Task 1",
+      "taskId": 5,
+      "requestId": "request-344228dd-8acb-4b6f-ba6d-149c1ed88c93",
+      "student": "VeronikaFilipenko",
+      "grade": {
+        "category 1": [
+          {
+            "criteriaId": "1afc5739-a6ae-4c44-b8c1-18f5ee99a53f",
+            "number": 15,
+            "discription": "Some things are done, some are not"
+          }
+        ],
+        "Category 2": [
+          {
+            "criteriaId": "7dfcc042-4498-4503-97f8-7cbc76e61244",
+            "number": -10,
+            "discription": "Well done!"
+          }
+        ]
+      },
+      "extra": {
+        "score": "5",
+        "comment": "You are beautiful !"
+      },
+      "score": 10,
+      "state": "DISPUTE",
+      "author": "VeronikaFilipenko",
+      "id": "review-7def7b60-b541-484c-b8ab-baa6d877e503",
+      "created_at": "2020-10-03 12:33:06",
+      "updated_at": "2020-10-03 12:33:59",
+      "closed_at": null
     }
   ],
-  "dispute": []
+  "feedbacks": [
+    {
+      "requestId": "request-344228dd-8acb-4b6f-ba6d-149c1ed88c93",
+      "massages": [
+        {
+          "author": "VeronikaFilipenko",
+          "avatar": "https://avatars3.githubusercontent.com/u/37982476?v=4",
+          "content": "Good task ! thx !",
+          "datetime": "2020-10-03 12:32:29",
+          "id": "5084e256-d098-4cfa-992e-825ff670df1d"
+        },
+        {
+          "author": "VeronikaFilipenko",
+          "avatar": "https://avatars3.githubusercontent.com/u/37982476?v=4",
+          "content": "Ok !",
+          "datetime": "2020-10-03 12:33:08",
+          "id": "2fafe11a-6e24-4bf6-8c63-fae5b17926e8"
+        }
+      ],
+      "id": "38ee0c92-b497-469e-8964-4bc245a34b88",
+      "created_at": "2020-10-03 13:32:29"
+    },
+    {
+      "requestId": "request-0396240e-8e7c-45c9-beec-25c52e23c23d",
+      "massages": [
+        {
+          "author": "VeronikaFilipenko",
+          "avatar": "https://avatars3.githubusercontent.com/u/37982476?v=4",
+          "content": "Good task ! thx !",
+          "datetime": "2020-10-03 12:32:29",
+          "id": "5084e256-d098-4cfa-992e-825ff670df1d"
+        },
+        {
+          "author": "VeronikaFilipenko",
+          "avatar": "https://avatars3.githubusercontent.com/u/37982476?v=4",
+          "content": "Ok !",
+          "datetime": "2020-10-03 12:33:08",
+          "id": "2fafe11a-6e24-4bf6-8c63-fae5b17926e8"
+        }
+      ],
+      "id": "37ee0c92-b497-469e-8964-4bc245a34b88",
+      "created_at": "2020-10-03 12:32:29"
+    },
+    {
+      "requestId": "request-51cf673a-9d1a-4685-b8bd-bb64eaefa4b2",
+      "massages": [],
+      "id": "40ee0c92-b497-469e-8964-4bc245a34b88",
+      "created_at": "2020-10-02 13:32:29"
+    }
+  ],
+  "dispute": [
+    {
+      "criterias": {
+        "1afc5739-a6ae-4c44-b8c1-18f5ee99a53f": {
+          "comment": "it is work good!  i am fix it."
+        }
+      },
+      "reviewId": "review-7def7b60-b541-484c-b8ab-baa6d877e503",
+      "id": "dispute-5b1001ba-370d-4c67-b274-553fe15a3106",
+      "created_at": "2020-10-03 12:33:59",
+      "state": "ONGOING",
+      "updated_at": null,
+      "closed_at": null
+    }
+  ]
 }

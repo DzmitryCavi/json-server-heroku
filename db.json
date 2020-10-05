@@ -987,5 +987,5 @@
       "closed_at": null
     }
   ],
-  crossCheckSession: []
+  "crossCheckSession": []
 }
